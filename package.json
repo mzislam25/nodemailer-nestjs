@@ -1,0 +1,34 @@
+{
+  "name": "nodemailer-nestjs",
+  "version": "1.0.0",
+  "description": "Reusable NestJS package for nodemailer",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mzislam25/nodemailer-nestjs.git"
+  },
+  "keywords": [
+    "nodemailer",
+    "nestjs",
+    "nest-package"
+  ],
+  "author": "Zahir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mzislam25/nodemailer-nestjs/issues"
+  },
+  "homepage": "https://github.com/mzislam25/nodemailer-nestjs#readme",
+  "dependencies": {
+    "@nestjs/common": "^10.3.8",
+    "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.14"
+  }
+}
