@@ -1,6 +1,6 @@
 {
   "name": "nodemailer-nestjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reusable NestJS package for nodemailer",
   "main": "dist/index",
   "types": "dist/index",
